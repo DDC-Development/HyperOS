@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker build buildenv -t hyper-buildenv
