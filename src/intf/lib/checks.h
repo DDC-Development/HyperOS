@@ -1,7 +1,7 @@
 #include "util/util.h"
 void StartChecker()
 {
-    PRINT_OKAY("Checking utility started\n");
+    PRINT_OKAY("Checking utility started");
 }
 
 void CountTest()
@@ -22,11 +22,11 @@ void CountTest()
     }
     if (success == 0)
     {
-        PRINT_OKAY("Counting check completed\n");
+        PRINT_OKAY("Counting check completed");
     }
     else
     {
-        PRINT_FAIL("Counting check failed\n");
+        PRINT_FAIL("Counting check failed");
     }
 }
 
@@ -39,10 +39,10 @@ void RAMTest()
 
     if (a == 0 && b == 1 && c == 3 && d == "HyperOS")
     {
-        PRINT_OKAY("RAM check passed\n");
+        PRINT_OKAY("RAM check passed");
     }
     else 
     {
-        PRINT_FAIL("RAM check failed\n");
+        PRINT_FAIL("RAM check failed");
     }
 }
