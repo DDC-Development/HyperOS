@@ -7,6 +7,8 @@ void kernel_main() {
     StartChecker();
     CountTest();
     RAMTest();
+    PRINT_WARNING("Hyper OS is still in the dev stage and may be unstable\n");
+    PRINT_FAIL("Test Fail\n");
     print_str("Booting... booted!");
     print_str("\n\nWELCOME TO HYPEROS!\n============================");
 }
