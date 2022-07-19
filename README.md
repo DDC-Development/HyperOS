@@ -8,4 +8,4 @@ The operating system boots, and displays the text, «WELCOME TO HYPER OS!».
 
 `Next planned feature:` Adding keyboard support.
 
-_NB:_ This will soon be merged with the [Digital Sledgehammer](https://github.com/LukeChemeriov/)Digital-Sledgehammerproject.
+_NB:_ This will soon be merged with the [Digital Sledgehammer](https://github.com/LukeChemeriov/) project.
